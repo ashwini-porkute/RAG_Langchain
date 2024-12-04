@@ -9,7 +9,7 @@ export OPENAI_API_KEY=sk-proj-..........................
 
 **Note:** create above keys from respective websites, and for ollama embedding model sign in on ollama.com and install ollama and download the model using ollama command as mentioned on website.
 
-**##1. RAG1.py:**
+###**1. RAG1.py:**
 =====================
 - Langchain as orchestration framework.
 - Input source is PDF.
@@ -19,7 +19,7 @@ export OPENAI_API_KEY=sk-proj-..........................
 - Gradio tool for web interface.
 
 
-**##2. RAG2.py:**
+###**2. RAG2.py:**
 =====================
 - Langchain as orchestration framework.
 - Input source is from web so, web scraping is done with beautifulsoup.
