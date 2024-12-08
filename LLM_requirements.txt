@@ -46,6 +46,7 @@ chroma-hnswlib==0.7.6
 chromadb==0.5.20
 click @ file:///croot/click_1698129812380/work
 cloudpickle @ file:///croot/cloudpickle_1721657346512/work
+cohere==5.13.3
 colorama @ file:///croot/colorama_1672386526460/work
 colorcet @ file:///croot/colorcet_1709758348067/work
 coloredlogs==15.0.1
@@ -78,6 +79,7 @@ exceptiongroup @ file:///croot/exceptiongroup_1706031385326/work
 executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
 faiss-cpu==1.9.0.post1
 fastapi==0.115.5
+fastavro==1.9.7
 fastjsonschema @ file:///opt/conda/conda-bld/python-fastjsonschema_1661371079312/work
 ffmpy==0.4.0
 filelock @ file:///croot/filelock_1700591183607/work
@@ -161,7 +163,7 @@ keyring @ file:///croot/keyring_1709632513808/work
 kiwisolver @ file:///croot/kiwisolver_1672387140495/work
 kubernetes==31.0.0
 langchain==0.3.8
-langchain-community==0.3.8
+langchain-community==0.3.9
 langchain-core==0.3.21
 langchain-groq==0.2.1
 langchain-ollama==0.2.0
@@ -246,6 +248,7 @@ pandas @ file:///croot/pandas_1718308974269/work/dist/pandas-2.2.2-cp39-cp39-lin
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 panel @ file:///croot/panel_1718119034739/work
 param @ file:///croot/param_1719347913870/work
+parameterized==0.9.0
 parsel @ file:///croot/parsel_1707503445438/work
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 partd @ file:///croot/partd_1698702562572/work
@@ -322,6 +325,7 @@ qtconsole @ file:///croot/qtconsole_1709231153903/work
 QtPy @ file:///croot/qtpy_1700144840038/work
 queuelib @ file:///croot/queuelib_1696950067631/work
 ragas==0.2.6
+rank-bm25==0.2.2
 referencing @ file:///croot/referencing_1699012038513/work
 regex @ file:///croot/regex_1726669635272/work
 requests @ file:///croot/requests_1721410876868/work
@@ -397,6 +401,7 @@ transformers==4.45.1
 triton==3.0.0
 Twisted @ file:///croot/twisted_1708702809815/work
 typer==0.13.1
+types-requests==2.32.0.20241016
 typing-inspect==0.9.0
 typing_extensions==4.12.2
 tzdata @ file:///croot/python-tzdata_1690578112552/work
