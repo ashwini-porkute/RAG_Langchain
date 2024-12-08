@@ -28,11 +28,11 @@ export OPENAI_API_KEY=sk-proj-..........................
 - LLM taken from GROQ.
 - Ragas is used to evaluate the RAG on basis of groundtruths.
 
-**###2. Hybrid_Retrieval_RAG.py:**
+**###3. Hybrid_Retrieval_RAG.py:**
 ===================================
 - Langchain as orchestration framework.
-- Input source is from Kaggle(http://mlg.ucd.ie/datasets/bbc.html?source=post_page-----4340b55fef22--------------------------------).
-- Reference: https://medium.com/@nadikapoudel16/advanced-rag-implementation-using-hybrid-search-reranking-with-zephyr-alpha-llm-4340b55fef22
+- Input source is from Kaggle [link](http://mlg.ucd.ie/datasets/bbc.html?source=post_page-----4340b55fef22--------------------------------).
+- Reference: [link](https://medium.com/@nadikapoudel16/advanced-rag-implementation-using-hybrid-search-reranking-with-zephyr-alpha-llm-4340b55fef22)
 - embeddings done by Hugging face's embedding model from ollama's "BAAI/bge-base-en-v1.5" model.
 - VectorStore is FAISS.
 - 2 retrieval methods(Vector embedding retrieval and BM25) are used here, to get accurate response and correct hit from data provided.
